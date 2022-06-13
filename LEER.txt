@@ -1,0 +1,12 @@
+la fuente de los datos originales del archivo csv contiene:
+datos de 1000 pacientes (publicado : Rashid, Ahlam (2020), “Diabetes Dataset”, Mendeley Data).
+la variable de salida 'CLASS' ordenados por tres grupos: 'Y' , 'N', 'P'
+para P=Predicho no se considera para el procesamiento (excluye).
+Para homologar los grupos 'Y' y 'N' se aplicó la tecnica de UNDERSAMPLE (evitando el sesgo en la predicción), 
+con esto solo se cuenta con:
+numero de muestras para la clase de salida 'Y' = 103
+numero de muestras para la clase de salida 'N' = 103
+--------------------------------------------------------
+Total de muestras o pacientes a procesar       = 206.
+
+finalmente se realizó el ordenamiento de menor a mayor del código 'ID', con el objetivo de mezclar las muestras....
